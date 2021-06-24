@@ -1,5 +1,5 @@
 
-FROM node:carbon
+FROM public.ecr.aws/bitnami/node:latest
 
 # Create app directory
 WORKDIR /usr/src/app
